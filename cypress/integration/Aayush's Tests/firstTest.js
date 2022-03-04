@@ -8,7 +8,6 @@ describe('Test Suite', function () {
         //using alias
         cy.get('.products').as('productLocatorTable')
 
-
         //scoping parent child
         cy.get('.products').find('.product').should('have.length', 4)
 
@@ -16,9 +15,6 @@ describe('Test Suite', function () {
         cy.get('.products').find('.product').eq(1).contains('ADD TO CART').click().then(function () {
             console.log('Now the control is under browser console')
         }) //starts from 0th index
-
-
-
 
         //always avoid index and use better approaches to handle them
         cy.get('@productLocatorTable').find('.product').each(($el, index, $list) => {
@@ -38,6 +34,7 @@ describe('Test Suite', function () {
             cy.log(logoName.text())
         })
 
+        //added assertions
         cy.get('.cart-icon > img').click()
         cy.contains('PROCEED TO CHECKOUT').click()
         cy.contains('Place Order').click()
