@@ -4,10 +4,11 @@ describe('Cart Addition', function () {
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
         cy.get('.search-keyword').type('ca')
         cy.wait(2000)
+        //iterating through list of products on the webpage
         cy.get('.products').find('.product').each(($el, index, $list) => {
             const vegText = $el.find('h4.product-name').text()
             if (vegText.includes('Cashews')) {
-                cy.wrap($el).find('button').click() 
+                cy.wrap($el).find('button').click()
             }
         }
         )
@@ -18,7 +19,7 @@ describe('Cart Addition', function () {
 
 
 
-    }   
+    }
     )
 }
 )
