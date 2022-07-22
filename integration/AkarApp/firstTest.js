@@ -1,9 +1,5 @@
 /// <reference types="Cypress" />
-<<<<<<< HEAD
 describe('The very First Test Suite', function () {
-=======
-describe('Test Suite Master', function () { //added and updated name
->>>>>>> master
     it('First test case', function () {
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
         cy.get('.search-keyword').type('ca')
