@@ -9,6 +9,7 @@ code format: shift+alt+f
 
 
 Running CYPRESS tests via command line
+- Running a single test: .\node_modules\.bin\cypress open  //this will open test runner 
 - Running a single test: .\node_modules\.bin\cypress run --spec '.\cypress\integration\Aayush''s Tests\firstTest.js'
 - Running on a browser: .\node_modules\.bin\cypress run --spec '.\cypress\integration\Aayush''s Tests\firstTest.js' --browser firefox
 
@@ -30,3 +31,13 @@ Locaters(need only four methods and any element can be handled)
 - How to confirm from console if you have the locaters pinned
     - $('input[type="search"]')
 
+- How to merge branch to master
+  git remote -v
+  git checkout updating-cypress-tests-part1
+  git status
+  git branch
+  git checkout master
+  git merge updating-cypress-tests-part1
+
+
+   
