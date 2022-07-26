@@ -39,5 +39,5 @@ Locaters(need only four methods and any element can be handled)
   git checkout master
   git merge updating-cypress-tests-part1
 
-
+OR us Git pull
    

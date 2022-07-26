@@ -23,6 +23,12 @@ describe('Opening child window and handliting alrts', function () {
         
         //handling browser controls
         cy.go('back')
+        //can also use prop('href) to get href is domain doesnt change
+        /*cy.get('#opentab').then(function(el)){
+            const url = el.prop('href')
+            cy.visit(url)
+
+        }*/
 
     })
 
