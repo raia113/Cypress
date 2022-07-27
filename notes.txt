@@ -33,11 +33,13 @@ Locaters(need only four methods and any element can be handled)
 
 - How to merge branch to master
   git remote -v
+  git branch updating-cypress-tests-part1 //creating a branch
   git checkout updating-cypress-tests-part1
   git status
   git branch
   git checkout master
   git merge updating-cypress-tests-part1
 
-OR us Git pull
+OR use Git pull
+
    

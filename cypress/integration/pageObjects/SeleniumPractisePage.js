@@ -31,12 +31,8 @@ class SeleniumPractisePage {
         return cy.get('[value="radio2"]')
     }
 
-    getRadioButton(){
-        return cy.get('[value="radio2"]')
-    }
-
     getDisplayedText(){
-        return cy.get('#displayed-text').
+        return cy.get('#displayed-text')
 
     }
 
