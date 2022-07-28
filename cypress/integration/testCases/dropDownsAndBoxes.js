@@ -19,7 +19,7 @@ describe('Selenium Testing Page Component Testing', function () {
         cy.get('@checkbox1').uncheck().should('not.be.checked')
         //globalThis.seleniumPractisePage.getInputTypeCheckBox().check(['option2', 'option3'])
         cy.checkBothOptions('option2')
-        cy.pause()
+        //cy.pause()
     })
 
     it('Static Dropdown verification', function () {

@@ -5,5 +5,6 @@
   "partialTestDropDownValue": "Ind",
   "testDropDownValue": "India",
   "testName": "Patrick Batemen",
-  "genderSelect": "Male"
+  "genderSelect": "Male",
+  "productsToAddToCart": ["Blackberry", "Nokia Edge"]
 }
