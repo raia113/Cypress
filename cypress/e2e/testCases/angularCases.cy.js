@@ -29,6 +29,7 @@ describe('Angular forms and Carts', function () {
         globalThis.data.productsToAddToCart.forEach(function (element) {
             cy.selectProduct(element)
         });
+        
 
 
 

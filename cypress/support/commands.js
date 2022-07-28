@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-import SeleniumPractisePage from '../integration/pageObjects/SeleniumPractisePage'
+import SeleniumPractisePage from '../e2e/pageObjects/SeleniumPractisePage'
 
 globalThis.seleniumPractisePage = new SeleniumPractisePage()
 
