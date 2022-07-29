@@ -1,0 +1,10 @@
+{
+  "seleniumPracticeUrl": "https://rahulshettyacademy.com/seleniumPractise/#/",
+  "automationPracticeUrl": "https://rahulshettyacademy.com/AutomationPractice/",
+  "angularPracticeUrl": "https://rahulshettyacademy.com/angularpractice/",
+  "partialTestDropDownValue": "Ind",
+  "testDropDownValue": "India",
+  "testName": "Patrick Batemen",
+  "genderSelect": "Male",
+  "productsToAddToCart": ["Blackberry", "Nokia Edge"]
+}

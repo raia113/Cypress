@@ -33,11 +33,20 @@ Locaters(need only four methods and any element can be handled)
 
 - How to merge branch to master
   git remote -v
+  git branch updating-cypress-tests-part1 //creating a branch
   git checkout updating-cypress-tests-part1
   git status
   git branch
   git checkout master
   git merge updating-cypress-tests-part1
 
+OR use Git pull
 
-   
+   continuing with mandatory and technical trainings 
+
+Configure scripts to use the cypress runs, just run "npm run headmode"
+ "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headmode":"npm run test --headed"
+refer to command line arguments cypress io for help/more info
+
