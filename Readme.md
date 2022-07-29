@@ -43,3 +43,10 @@ Locaters(need only four methods and any element can be handled)
 OR use Git pull
 
    continuing with mandatory and technical trainings 
+
+Configure scripts to use the cypress runs, just run "npm run headmode"
+ "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headmode":"npm run test --headed"
+refer to command line arguments cypress io for help/more info
+
