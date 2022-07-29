@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-import SeleniumPractisePage from '../pageObjects/SeleniumPractisePage'
+import SeleniumPractisePage from '../../support/pageObjects/SeleniumPractisePage.cy'
 
 /* This practice covers Aliasing, Fixtures, POMs, Test Hooks and Custom Commands */
 

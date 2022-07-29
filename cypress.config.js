@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+  projectId: 'khbr5n',
   defaultCommandTimeout: 8000,
   e2e: {
     // We've imported your old cypress plugins here.
