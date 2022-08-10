@@ -19,8 +19,11 @@ describe('Opening child window and handliting alrts', function () {
 
         //opening child window on the same page by removing attribute and confirming with mocha assertions
         cy.get('#opentab').invoke('removeAttr', 'target').click()
-        cy.url().should('include', 'qaclickacademy')
-        
+        cy.wait(1000)
+        cy.url().should('include', 'rahulshettyacademy')
+        cy.log(cy.title())
+        cy.get('.col-md-8 > h2').should('contain',"JOIN OUR ACADEMY")
+    
         //handling browser controls
         cy.go('back')
         //can also use prop('href) to get href is domain doesnt change

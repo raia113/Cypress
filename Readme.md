@@ -50,3 +50,9 @@ Configure scripts to use the cypress runs, just run "npm run headmode"
     "headmode":"npm run test --headed"
 refer to command line arguments cypress io for help/more info
 
+Selecting elements
+cy
+  .get('h1') // select by tag
+  .get('.square') // select by class
+  .get('#circle') // select by id
+  .get('[shape="triangle"]'); // select by attribute
